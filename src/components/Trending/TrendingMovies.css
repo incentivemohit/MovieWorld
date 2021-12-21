@@ -1,0 +1,106 @@
+#latest-movieList {
+  list-style: none;
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: none;
+  white-space: nowrap;
+}
+#latest-movie-card {
+  position: relative;
+  background-color: burlywood;
+  cursor: pointer;
+  margin-right: 10px;
+}
+#latest-movieList-ratings {
+  position: absolute;
+  top: 5px;
+}
+#latest-movieList-ratings-img {
+  width: 100px;
+  margin-left: 10px;
+}
+.latest-movie-poster-details {
+  position: absolute;
+  top: 380px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  left: 30px;
+}
+
+.latest-movie-poster-title {
+  background-color: rgb(255, 17, 0);
+  font-size: 15px;
+  width: 115%;
+  margin-left: -20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.latest-movie-language-and-date {
+  display: flex;
+  margin-top: 5px;
+}
+.latest-movie-language {
+  font-size: 13px;
+  border-radius: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: white;
+  margin-right: 10px;
+  color: black;
+}
+
+.latest-movie-release-date {
+  font-size: 13px;
+  border-radius: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: white;
+  color: black;
+}
+#latest-movieList-carousel {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  #latest-movieList {
+    display: none;
+  }
+  #latest-movieList-carousel {
+    display: block;
+  }
+  .latest-movie-poster-of-carousel {
+    display: flex;
+
+    justify-content: center;
+  }
+  .latest-movie-posterTitle-of-carousel {
+    background-color: rgb(231, 23, 23);
+    border-radius: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 20px;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  .latest-movie-language {
+    font-size: 13px;
+    border-radius: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+    margin-right: 10px;
+    color: black;
+    font-weight: bold;
+  }
+  .latest-movie-release-date {
+    font-size: 13px;
+    border-radius: 8px;
+    padding-left: 15px;
+    font-weight: bold;
+    padding-right: 15px;
+    background-color: white;
+    color: black;
+  }
+}

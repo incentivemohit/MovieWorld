@@ -1,0 +1,92 @@
+.popular-movies-wrapper {
+  margin-top: 30px;
+}
+.popular-movieList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.popular-movie-card {
+  position: relative;
+  margin-bottom: 25px;
+  padding: 15px;
+}
+.popular-movie-poster {
+  width: 350px;
+  height: 500px;
+  background-color: yellow;
+}
+.popular-movie-title {
+  font-size: 18px;
+  background-color: rgb(35, 35, 211);
+  color: white;
+  text-align: center;
+  border-radius: 15px;
+  margin-top: 5px;
+}
+.popular-movie-title:hover {
+  background-color: green;
+}
+.popular-movie-starRating-section {
+  width: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.starRating-Numbers {
+  margin-left: 5px;
+  padding-top: 5px;
+}
+.popular-movie-language {
+  font-size: 16px;
+  margin-left: 144px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  background-color: red;
+  border-radius: 15px;
+  color: white;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.popular-movie-year {
+  text-align: center;
+  border-radius: 15px;
+  background-color: rgb(227, 238, 80);
+}
+@media screen and (max-width: 768px) {
+  .popular-movieList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .popular-movie-card {
+    margin-bottom: 20px;
+    width: 230px;
+  }
+  .popular-movie-poster {
+    width: 200px;
+    height: 310px;
+  }
+
+  .popular-movie-details {
+    margin-left: 10px;
+  }
+  .popular-movie-title {
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .popular-movie-starRating-section {
+    display: flex;
+
+    margin-bottom: 3px;
+  }
+
+  .starRating-Numbers {
+    margin-left: 5px;
+    padding-top: 5px;
+  }
+  .popular-movie-language {
+    font-size: 13px;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+}

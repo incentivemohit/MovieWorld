@@ -1,0 +1,18 @@
+.TrendingMovies {
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.Movies-section-heading {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .PopularMovies {
+    margin-left: 10px;
+  }
+  .Movies-section-heading {
+    margin-left: 20px;
+  }
+}

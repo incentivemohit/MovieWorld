@@ -1,0 +1,210 @@
+.movie-Details {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.movie-details-block {
+  display: flex;
+}
+.movie-Poster {
+  width: 600px;
+  height: 550px;
+}
+
+.details {
+  margin-left: 15px;
+}
+.movie-Name {
+  font-size: 30px;
+  font-weight: bold;
+  color: brown;
+}
+.movie-Rating-Stars {
+  width: 20%;
+  margin-bottom: 10px;
+}
+.movie-Language {
+  background-color: rgb(33, 9, 250);
+  color: white;
+  border-radius: 15px;
+  margin-right: 41rem;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.movie-Release-Date {
+  background-color: black;
+  color: white;
+  margin-top: 5px;
+  border-radius: 15px;
+  margin-right: 37rem;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/*movie-overview*/
+.overview {
+  margin-top: 40px;
+  border-radius: 15px;
+
+  background-color: brown;
+}
+#movie-overview {
+  margin: 30px 30px;
+}
+
+.section-name {
+  background-color: rgb(101, 165, 42);
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+/*TopRatedMovies*/
+.Top-Rated-Movies {
+  margin-top: 40px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  background-color: brown;
+}
+
+.TopRatedMovies {
+  background-color: cadetblue;
+
+  width: 150px;
+  margin-bottom: 10px;
+}
+.TopRatedMovies-img {
+  width: 100px;
+  height: 100px;
+  margin-left: 28px;
+  margin-top: 10px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.TopRatedMovies-name {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+  background-color: rgb(159, 46, 224);
+  color: white;
+  border-radius: 15px;
+  margin-left: 10px;
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.TopRatedMovies-date {
+  text-align: center;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .movie-Details {
+    display: block;
+    background-color: wheat;
+  }
+
+  .movie-Poster {
+    width: 440px;
+    height: 550px;
+  }
+  .details {
+    height: 160px;
+    margin-top: 10px;
+  }
+
+  .movie-Name {
+    font-size: 30px;
+    font-weight: bold;
+    color: brown;
+    margin-right: 17px;
+  }
+  .movie-Rating-Stars {
+    width: 30%;
+    margin-bottom: 10px;
+  }
+  .details {
+    display: block;
+  }
+  .movie-Language {
+    background-color: rgb(33, 9, 250);
+    color: white;
+    margin-right: 270px;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .movie-Release-Date {
+    background-color: black;
+    color: white;
+    margin-top: 5px;
+    border-radius: 15px;
+    margin-right: 210px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  /*movie-overview*/
+  .overview {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 15px;
+
+    color: white;
+    background-color: brown;
+  }
+  #movie-overview {
+    margin: 20px 20px;
+  }
+
+  /*TopRatedMovies*/
+
+  .TopRatedMovies {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 15px;
+    color: white;
+    background-color: brown;
+  }
+  .TopRatedMovies-list {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    display: flex;
+  }
+
+  .TopRatedMovies {
+    width: 150px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+  .TopRatedMovies-img {
+    width: 100px;
+    height: 100px;
+    margin-left: 28px;
+    margin-top: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .TopRatedMovies-name {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    background-color: rgb(159, 46, 224);
+    color: white;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .TopRatedMovies-role {
+    text-align: center;
+  }
+}
